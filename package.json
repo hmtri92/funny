@@ -1,0 +1,19 @@
+{
+  "name": "funny",
+  "version": "1.0.0",
+  "description": "MT Funny App",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "nodejs"
+  ],
+  "author": "MT",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
