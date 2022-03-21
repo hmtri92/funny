@@ -1,0 +1,13 @@
+@import 'variables';
+
+.container {
+    display: flex;
+}
+
+.header {
+    color: $header-color;
+}
+
+.footer {
+    color: $footer-color;
+}
