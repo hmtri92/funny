@@ -4,6 +4,7 @@ import { join } from 'path';
 import { engine } from 'express-handlebars';
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
+import route from './routes/index.route.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const port = 4000;
@@ -23,6 +24,6 @@ app.use(morgan('combined'));
 // Static files
 app.use(express.static(join(__dirname, 'public')));
 
-app.get('/home', (req, res) => res.render('home'));
+route(app);
 
 app.listen(port, () => console.log(`Funny app listening on port http://localhost:${port}`));

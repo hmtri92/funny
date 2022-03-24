@@ -2,10 +2,10 @@
   "name": "funny",
   "version": "1.0.0",
   "description": "MT Funny App",
-  "main": "src/index.mjs",
+  "main": "src/app.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect src/index.mjs",
+    "start": "nodemon --inspect src/app.mjs",
     "watch": "node-sass --watch src/resources/scss --output src/public/css"
   },
   "keywords": [
